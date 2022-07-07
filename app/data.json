@@ -1,0 +1,470 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh","pretty good", "really good"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "yeah well",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "not really",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "no way",
+        "no-no",
+        "it isn't",
+        "isn't",
+        "I'm a bit busy",
+        "busy time right now",
+        "in the middle of something",
+        "signal is pretty bad"
+      ]
+    },
+
+    "high_school": {
+      "includes": [
+        "finished high school",
+        "graduated my high school",
+        "graduated from high school",
+        "high school",
+        "don't have"
+      ]
+    },
+
+    "college": 
+    {
+      "includes":[
+        "have a masters degree",
+        "M.A. degree",
+        "masters",
+        "master's",
+        "degree",
+        "PHD",
+        "PhD",
+        "PhD degree",
+        "doctorate",
+        "doctorate degree",
+        "graduate school",
+        "grad school",
+        "bachelor",
+        "B.A. degree",
+        "B.S. degree",
+        "B.A.",
+        "MBA",
+        "M.B.A.",
+        "BA",
+        "BS",
+        "master of arts",
+        "master of sciences"
+      ]
+    },
+
+    "less_2_years": 
+    {
+      "includes":[
+        "less than 2 years",
+        "1",
+        "nearly two years",
+        "nearly 2 years",
+        "a year",
+        "less than a year",
+        "month",
+        "a month",
+        "months",
+        "one year",
+        "1 year",
+        "a year",
+        "not even",
+        "don't have experience",
+        "zero experience",
+        "no experience",
+        "starting"
+      ]
+    },
+
+    "over_2_years": 
+    {
+      "includes":[
+        "over 2 years",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8",
+        "10",
+        "9",
+        "7",
+        "over two years",
+        "more than two years",
+        "more than that",
+        "three years",
+        "3 years",
+        "4 years",
+        "four years",
+        "five years",
+        "5 years",
+        "6 years",
+        "six years",
+        "ten years",
+        "10 years",
+        "over",
+        "far over",
+        "about five years of experience",
+        "got more than two years of experience with cold calling",
+        "got far over two years of experience"
+      ]
+    },
+
+    "skill_bad": 
+    {
+      "includes":[
+        "it's okay",
+        "okay",
+        "so so",
+        "be improved",
+        "need some work",
+        "not too bad",
+        "could be better",
+        "improvement",
+        "improved"
+      ]
+    },
+
+    "skill_good": 
+    {
+      "includes":[
+        "excel",
+        "excellent",
+        "really good",
+        "good",
+        "fantastic",
+        "what I do best",
+        "the best",
+        "top-notch",
+        "top notch",
+        "10 out of 10",
+        "couldn't be better",
+        "cold calling is what I do best"
+      ]
+    },
+
+    "okay": 
+    {
+      "includes":[
+        "comfortable",
+        "are okay",
+        "am okay",
+        "OK",
+        "okay",
+        "wouldn't mind",
+        "no big deal",
+        "not a deal breaker",
+        "not a deal-breaker",
+        "wouldn't be a deal breaker",
+        "wouldn't be a big deal",
+        "isn't a big deal",
+        "fine",
+        "alright",
+        "don't really mind",
+        "I'm fine with",
+        "totally fine",
+        "love",
+        "fine with",
+        "I'm OK with that",
+        "surely not a deal breaker for me"
+      ]
+    },
+
+    "not_okay": 
+    {
+      "includes":[
+        "hate",
+        "not comfortable",
+        "would not feel",
+        "wouldn't be comfortable",
+        "wouldn't feel comfortable",
+        "would really mind",
+        "not feel",
+        "wouldn't make me feel too comfortable",
+        "dislike",
+        "deal breaker",
+        "deal-breaker",
+        "a big deal",
+        "not fine",
+        "not alright",
+        "wouldn't be alright",
+        "wouldn't be fine",
+        "not too comfortable",
+        "doesn't make me feel good",
+        "wouldn't make me feel too good",
+        "I'd really mind",
+        "I'd mind",
+        "I would really mind"
+      ]
+    },
+
+    "yes_goals": 
+    {
+      "includes":[
+        "successful",
+        "met all my sales goals",
+        "meeting my goals",
+        "met my goals",
+        "overachieved",
+        "met my sales goals",
+        "achieved",
+        "overachieve",
+        "every time", 
+        "every single time", 
+        "always", 
+        "all the time", 
+        "each month", 
+        "every month", 
+        "every single",
+        "achieved my goals",
+        "every single month",
+        "met my sales goals every single month for the past"
+      ]
+    },
+
+    "no_goals": 
+    {
+      "includes":[
+        "wasn't very successful",
+        "not every time",
+        "not every month",
+        "not always", "not each time", "not all the time"
+      ]
+    },
+
+    "no_compensation": 
+    {
+      "includes":[
+        "too low",
+        "low",
+        "not high",
+        "not too high",
+        "not enough",
+        "lower",
+        "don't want to have",
+        "not high enough"
+      ]
+    },
+    
+    "unsure": 
+    {
+      "includes":[
+        "I'm not sure",
+        "I'm usure",
+        "I don't know what I want",
+        "I don't know what I would like to order",
+        "I do not know",
+        "I don't know for sure",
+        "unsure",
+        "not sure",
+        "I'm not quite sure",
+        "I'm not sure what I'd like",
+        "not sure what I'd like to order",
+        "unsure what I want"
+      ]
+    }
+   },
+
+  
+  "entities": 
+  {
+    "day_of_week": 
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "Monday",
+          "synonyms": ["monday", "Monday", "Lunes", "day one"]
+        },
+        {
+          "value": "Tuesday",
+          "synonyms": ["martes", "tuesday", "Tuesday", "day two"]
+        },
+        {
+          "value": "Wednesday",
+          "synonyms": ["Humpday", "miercoles", "wednesday", "Wednesday"]
+        },
+        {
+          "value": "Thursday",
+          "synonyms": ["jueves", "thursday", "Thursday"]
+        },
+        {
+          "value": "Friday",
+          "synonyms": ["TGIF", "viernes", "friday", "Friday"]
+        },
+        {
+          "value": "Saturday",
+          "synonyms": ["sabado", "on Saturday"]
+        },
+        {
+          "value": "Sunday",
+          "synonyms": ["domingo", "on Sunday"]
+        }
+      ]
+    },
+    "time": 
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "9 am",
+          "synonyms": ["9 o'clock", "9 am", "9am", "9:00 AM","nine o'clock in the morning", "9", "9 in the morning"]
+        },
+        {
+          "value": "10 am",
+          "synonyms": ["10 o'clock", "10 am", "10am", "10:00 AM","ten o'clock in the morning", "10", "10 in the morning"]
+        },
+        {
+          "value": "11 am",
+          "synonyms": ["11 o'clock", "11 am", "11am", "11:00 AM", "eleven o'clock in the morning", "11", "11 in the morning"]
+        },
+        {
+          "value": "12 pm",
+          "synonyms": ["12 o'clock", "12 pm", "12pm", "12:00 PM", "12", "noon"]
+        },
+        {
+          "value": "1 pm",
+          "synonyms": ["1 o'clock", "1 pm", "1pm", "1:00 PM", "one o'clock in the afternoon", "1", "1 in the afternoon"]
+        },
+        {
+          "value": "2 pm",
+          "synonyms": ["2 o'clock", "2 pm", "2pm", "2:00 PM", "two o'clock in the afternoon", "2", "2 in the afternoon"]
+        },
+        {
+          "value": "3 pm",
+          "synonyms": ["3 o'clock", "3 pm", "3pm", "3:00 PM", "three o'clock in the afternoon", "3", "3 in the afternoon"]
+        },
+        {
+          "value": "4 pm",
+          "synonyms": ["4 o'clock", "4 pm", "4pm", "4:00 PM", "four o'clock in the afternoon", "4", "4 in the afternoon"]
+        },
+        {
+          "value": "5 pm",
+          "synonyms": ["5 o'clock", "5 pm", "5pm", "5:00 PM", "five o'clock in the afternoon", "5", "5 in the afternoon"]
+        },
+        {
+          "value": "6 pm",
+          "synonyms": ["6 o'clock", "6 pm", "6pm", "6:00 PM", "six o'clock in the evening", "6", "6 in the afternoon"]
+        },
+        {
+          "value": "7 pm",
+          "synonyms": ["7 o'clock", "7 pm", "7pm", "7:00 PM", "seven o'clock in the evening", "7", "7 in the afternoon"]
+        },
+        {
+          "value": "8 pm",
+          "synonyms": ["8 o'clock", "8 pm", "8pm", "8:00 PM", "eight o'clock in the evening", "8", "8 in the afternoon"]
+        },
+        {
+          "value": "9 pm",
+          "synonyms": ["9 o'clock", "9 pm", "9pm", "9:00 PM", "nine o'clock in the evening", "9", "9 in the evening"]
+        },
+        {
+          "value": "10 pm",
+          "synonyms": ["10 o'clock", "10 pm", "10pm", "10:00 PM", "ten o'clock in the evening", "10", "10 in the evening"]
+        },
+        {
+          "value": "11 pm",
+          "synonyms": ["11 o'clock", "11 pm", "11pm", "11:00 PM", "eleven o'clock in the evening", "11", "11 in the evening"]
+        },
+        {
+          "value": "12 am",
+          "synonyms": ["12 o'clock", "12 am", "12am", "12:00 AM", "twelve o'clock in the morning", "12", "12 in the morning", "noon"]
+        },
+        {
+          "value": "1 am",
+          "synonyms": ["1 o'clock", "1 am", "1am", "1:00 AM", "one o'clock in the morning", "1", "1 in the morning"]
+        },
+        {
+          "value": "2 am",
+          "synonyms": ["2 o'clock", "2 am", "2am", "2:00 AM", "two o'clock in the morning", "2", "2 in the morning"]
+        },
+        {
+          "value": "3 am",
+          "synonyms": ["3 o'clock", "3 am", "3am", "3:00 AM", "three o'clock in the morning", "3", "3 in the morning"]
+        },
+        {
+          "value": "4 am",
+          "synonyms": ["4 o'clock", "4 am", "4am", "4:00 AM", "four o'clock in the morning", "4", "4 in the morning"]
+        },
+        {
+          "value": "5 am",
+          "synonyms": ["5 o'clock", "5 am", "5am", "5:00 AM", "five o'clock in the morning", "5", "5 in the morning"]
+        },
+        {
+          "value": "6 am",
+          "synonyms": ["6 o'clock", "6 am", "6am", "6:00 AM","six o'clock in the morning", "6", "6 in the morning"]
+        },
+        {
+          "value": "7 am",
+          "synonyms": ["7 o'clock", "7 am", "7am", "7:00 AM","seven o'clock in the morning", "7", "7 in the morning"]
+        },
+        {
+          "value": "8 am",
+          "synonyms": ["8 o'clock", "8 am", "8am", "8:00 AM", "eight o'clock in the morning", "8", "8 in the morning"]
+        }
+      ],
+      "includes": [ 
+        "check out at [time] on [day_of_week]",
+        "checking out time to be [time] on [day_of_week]",
+        "let's do [time] on [day_of_week]",
+        "let's go with [time] on [day_of_week]",
+        "[day_of_week] at [time]",
+        "[time] on [day_of_week]"
+        ]
+    }
+  }
+}
