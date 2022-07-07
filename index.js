@@ -15,7 +15,8 @@ async function main() {
 
   const conv = app.createConversation({
     phone: process.argv[2],
-    day_of_week: day,
+    landlordName: process.argv[3] ?? "Landlord",
+    tenantName: process.argv[4] ?? "Tenant"
   });
   
   if (conv.input.phone !== "chat") conv.on("transcription", console.log);
