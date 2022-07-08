@@ -1,1 +1,4 @@
 ####################################################################################################
+human: 
+human: 
+ai: Hi Ayush this is Dasha ai automated bot confirming your interest in the address of 665 holoway view. I'd like to ask you a few personalized questions about yourself in terms of your living standards.Do you have two minutes now? 

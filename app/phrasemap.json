@@ -12,11 +12,11 @@
             "text": "Hi "
           },
           {
-            "id": "landlordName",
+            "id": "tenantName",
             "type": "dynamic"
           },
           {
-            "text": " this is Dasha with Acme Credit Union. You visited one of our offices earlier today. I'd like to ask you a few questions about the experience. Do you have two minutes now? "
+            "text": " this is Dasha ai automated bot confirming your interest in the address of 665 holoway view. I'd like to ask you a few personalized questions about yourself in terms of your living standards.Do you have two minutes now? "
           }
         ],
         "repeat": [

@@ -6,6 +6,7 @@ context
     // Declare the input variable - phone. It's your hotel room phone number and it will be used at the start of the conversation.
     input phone: string;
     input landlordName: string;
+    input tenantName: string;
     output new_time: string="";
     output new_day: string="";
 }
@@ -19,7 +20,8 @@ start node root
         #waitForSpeech(1000); // Waiting for 1 second to say the welcome message or to let the hotel guest say something
         #say("greeting",
         {
-            landlordName: $landlordName
+            //landlordName: $landlordName
+            tenantName: $tenantName
         }
         ); // Welcome message
         wait *; // Wating for the hotel guest to reply
