@@ -12,7 +12,7 @@
             "text": "Hi "
           },
           {
-            "id": "tenantName",
+            "id": "landlordName",
             "type": "dynamic"
           },
           {
@@ -29,6 +29,46 @@
           },
           {
             "text": "? This will help ACME serve you better."
+          }
+        ]
+      },
+      "tenant_check": {
+        "first": [
+          {
+            "text": "Did tenant"
+          },
+          {
+            "id": "tenantName",
+            "type": "dynamic"
+          },
+          {
+            "text": "live in address "
+          },
+          {
+            "id": "address",
+            "type": "dynamic"
+          },
+          {
+            "text": "when you were the owner?"
+          }
+        ],
+        "repeat": [
+          {
+            "text": "Did tenant"
+          },
+          {
+            "id": "tenantName",
+            "type": "dynamic"
+          },
+          {
+            "text": "live in address "
+          },
+          {
+            "id": "address",
+            "type": "dynamic"
+          },
+          {
+            "text": "when you were the owner?"
           }
         ]
       },

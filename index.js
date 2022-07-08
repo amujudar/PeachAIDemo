@@ -1,5 +1,6 @@
 const dasha = require("@dasha.ai/sdk");
 const fs = require("fs");
+const { Server } = require("http");
 
 async function main() {
   const app = await dasha.deploy("./app");
@@ -13,10 +14,25 @@ async function main() {
 
   await app.start();
 
+// server function
+
+
+
+// example of how our server will work
+function calldasha(phone, landlordName, tenantName, address) {
+  const conv = app.createConversation({
+    phone: phone,
+    landlordName: landlordName,
+    tenantName: tenantName,
+    address: address
+  });
+}
+
   const conv = app.createConversation({
     phone: process.argv[2],
     landlordName: process.argv[3] ?? "Landlord",
-    tenantName: process.argv[4] ?? "Tenant"
+    tenantName: process.argv[4] ?? "Tenant",
+    address: process.argv[5] ?? "address"
   });
   
   if (conv.input.phone !== "chat") conv.on("transcription", console.log);

@@ -7,6 +7,7 @@ context
     input phone: string;
     input landlordName: string;
     input tenantName: string;
+    input address: string;
     output new_time: string="";
     output new_day: string="";
 }
@@ -20,8 +21,8 @@ start node root
         #waitForSpeech(1000); // Waiting for 1 second to say the welcome message or to let the hotel guest say something
         #say("greeting",
         {
-            //landlordName: $landlordName
-            tenantName: $tenantName
+            landlordName: $landlordName
+            //tenantName: $tenantName
         }
         ); // Welcome message
         wait *; // Wating for the hotel guest to reply
@@ -29,7 +30,25 @@ start node root
     transitions // Here you give directions to which nodes the conversation will go
     {
         will_call_back: goto will_call_back on #messageHasIntent("no");
-        education: goto education on #messageHasIntent("yes");
+        education: goto confirm_tenant on #messageHasIntent("yes");
+    }
+}
+
+node confirm_tenant
+{
+    do
+    {
+        #say("tenant_check",
+        {
+            tenantName: $tenantName,
+            address: $address
+        }
+        );
+    }
+    transitions
+    {
+        // if its no, apologize and end the conversation
+        // if its yes, continue the conversation
     }
 }
 
